@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -28,7 +29,7 @@ public class GridTest {
         ChromeOptions options = new ChromeOptions();
         String hubUrl = " http://192.168.0.16:4444/wd/hub ";
 
-        WebDriver driver = new RemoteWebDriver(new URL(hubUrl),options);
+        WebDriver driver = new RemoteWebDriver(new URL(hubUrl), options);
 
         driver.get("https://www.google.com");
 
