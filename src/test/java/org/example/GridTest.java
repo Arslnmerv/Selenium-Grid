@@ -20,10 +20,10 @@ public class GridTest {
         cap.setBrowserName("chrome");
 
         //**i(OS) sletim sistemi
-        cap.setPlatform(Platform.ANY);
+        cap.setPlatform(Platform.WINDOWS);
 
         //**browser version
-        //cap.setVersion("96.0.4664.45 ");
+        cap.setVersion("96.0.4664.45 ");
 
         ChromeOptions options = new ChromeOptions();
         String hubUrl = " http://192.168.0.16:4444/wd/hub ";
