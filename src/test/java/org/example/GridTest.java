@@ -16,11 +16,11 @@ public class GridTest {
         //1) Create  Desired Capabilities
         DesiredCapabilities cap = new DesiredCapabilities();
 
-        //We can desribe into the Desired Capabilities 3 things
+        //We can describe into the Desired Capabilities 3 things
         //**browser
         cap.setBrowserName("chrome");
 
-        //**i(OS) sletim sistemi
+        //**(OS) isletim sistemi
         cap.setPlatform(Platform.WINDOWS);
 
         //**browser version
